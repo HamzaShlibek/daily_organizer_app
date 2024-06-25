@@ -1,0 +1,22 @@
+{
+  "language": "العربية",
+  "toolkitApp": "المنظم اليومي",
+  "calculator": "الة حاسبة",
+  "calendar": "التقويم",
+  "notes": "الملاحظات",
+  "game": "اللعبة",
+  "settings": "الاعدادات",
+  "exit": "الخروج",
+  "date": "التاريخ",
+  "time": "الساعة",
+  "darkMode": "الوضع الداكن",
+  "about": "معلومات",
+  "lang": "اللغة",
+  "createNote": "انشاء ملاحظة",
+  "create": "انشاء",
+  "updateNote": "تعديل ملاحظة",
+  "update": "تعديل",
+  "comingSoon": "قريبا",
+  "timer": "مؤقت",
+  "search": "اكتب للبحث..."
+}

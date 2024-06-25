@@ -1,0 +1,22 @@
+{
+  "language": "English",
+  "toolkitApp": "Daily Organizer",
+  "calculator": "Calculator",
+  "calendar": "Calendar",
+  "notes": "Notes",
+  "game": "Game",
+  "settings": "Settings",
+  "exit": "Exit",
+  "date": "Date",
+  "time": "Time",
+  "darkMode": "Dark Mode",
+  "about": "About",
+  "lang": "Language",
+  "createNote": "Create Note",
+  "create": "Create",
+  "updateNote": "Update Note",
+  "update": "Update",
+  "comingSoon": "Coming Soon",
+  "timer": "Timer",
+  "search": "Type to search..."
+}
