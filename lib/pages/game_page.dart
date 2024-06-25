@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
-import '../components/answer_box.dart';
-import '../components/question_box.dart';
+// import '../components/answer_box.dart';
+// import '../components/question_box.dart';
 import '../provider/app_provider.dart';
 
 class GamePage extends StatefulWidget {

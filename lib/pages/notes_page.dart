@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
+import '../components/note_edit.dart';
 import '../components/route_with_transition.dart';
 import 'search_bar_page.dart';
 import '../provider/note_database.dart';
@@ -69,15 +70,28 @@ class _NotesAppState extends State<NotesApp> {
 
               return Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 8),
-                child: NoteWidget(
-                  text: note.text,
-                  onPressedEdit: () => NoteFunctions.updateNote(
-                    context,
-                    note,
-                    textController: textController,
+                child: GestureDetector(
+                  onTap: () {
+                    Navigator.of(context).push(createRoute(
+                      widget: NoteEdit(
+                        index: index,
+                        notes: currentNotes,
+                        controller: TextEditingController(
+                          text: currentNotes[index].text,
+                        ),
+                      ),
+                    ));
+                  },
+                  child: NoteWidget(
+                    text: note.text,
+                    onPressedEdit: () => NoteFunctions.updateNote(
+                      context,
+                      note,
+                      textController: textController,
+                    ),
+                    onPressedDelete: () =>
+                        NoteFunctions.deleteNote(context, note.id),
                   ),
-                  onPressedDelete: () =>
-                      NoteFunctions.deleteNote(context, note.id),
                 ),
               );
             },

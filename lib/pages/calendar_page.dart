@@ -51,7 +51,7 @@ class _CalendarAppState extends State<CalendarApp> {
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
-                            VerticalDivider(),
+                            const VerticalDivider(),
                             Center(
                               child: Text(
                                 DateFormat('dd/MM/yyyy').format(DateTime.now()),
@@ -74,7 +74,7 @@ class _CalendarAppState extends State<CalendarApp> {
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
-                            VerticalDivider(),
+                            const VerticalDivider(),
                             Center(
                               child: StreamBuilder(
                                 stream:
