@@ -1,4 +1,4 @@
-# toolkit_app
+# daily_organizer_app
 
 A new Flutter project.
 
