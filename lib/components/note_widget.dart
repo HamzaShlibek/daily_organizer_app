@@ -24,7 +24,7 @@ class NoteWidget extends StatelessWidget {
               text,
               style: const TextStyle(fontSize: 20),
             ),
-            const Spacer(),
+            SizedBox(height: 12),
             Container(
               alignment: AlignmentDirectional.centerEnd,
               child: Row(
